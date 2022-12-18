@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lifecycle.ActivityC">
+
+    <TextView
+        android:id="@+id/textViewActivityA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="77dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="This is Activity C" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewActivityA"
+        android:text="START A"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonA"
+        android:text="START B"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonB"
+        android:text="START C"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
